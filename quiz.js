@@ -46,7 +46,19 @@ const questions = [
             { text : "Jupiter", correct: true},
             { text : "Uranus", correct: false},
             { text : "Saturn", correct: false},
+        ] 
+    },
+    {
+        
+        question: "Which cricket team has won the most World Cups ?",
+        answer: [
+            { text : "England", correct: false},
+            { text : "Australia", correct: true},
+            { text : "India", correct: false},
+            { text : "South Africa", correct: false},
         ]
+
+        
     },
 ]
 const questionElement = document.getElementById('question');
